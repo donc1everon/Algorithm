@@ -13,7 +13,7 @@ m = input('Вторая буква: ')
 
 num_n = ord(n) - ord('a') + 1
 num_m = ord(m) - ord('a') + 1
-num_between = abs(num_n - num_m)
+num_between = abs(num_n - num_m - 1)
 
 print(f'Порядковый номер первой буквы - {num_n}')
 print(f'Порядковый номер второй буквы - {num_m}')

@@ -8,4 +8,5 @@ contra_num = ''
 
 for n in num:
     contra_num = n + contra_num
+
 print(f'Число наоборот = {contra_num}')

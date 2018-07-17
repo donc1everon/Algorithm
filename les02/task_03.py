@@ -9,4 +9,8 @@ contra_num = ''
 for n in num:
     contra_num = n + contra_num
 
-print(f'Число наоборот = {contra_num}')
+print(f'Вариант - 1. Число наоборот = {contra_num}')
+
+
+num = num[::-1]
+print(f'Вариант - 2. Число наоборот = {num}')

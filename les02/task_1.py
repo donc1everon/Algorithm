@@ -12,7 +12,8 @@ while True:
     a = int(input('a = '))
     b = int(input('b = '))
     sign = input('sign = ')
-    if sign == 0:
+    if sign == '0':
+        print('До свидания!')
         break
     else:
         while (sign != '+') and (sign != '-') and (sign != '*') and (sign != '/'):

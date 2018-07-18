@@ -5,7 +5,7 @@
 
 print("Введите натуральное число:")
 num = int(input("num = "))
-i = 1
+i = 0
 summ_left = 0
 
 while i <= num:

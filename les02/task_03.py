@@ -14,3 +14,16 @@ print(f'Вариант - 1. Число наоборот = {contra_num}')
 
 num = num[::-1]
 print(f'Вариант - 2. Число наоборот = {num}')
+
+
+def contra_num_rec(n):
+
+    if len(n) == 1:
+        return n[0]
+
+    if len(n) == 2:
+        return n[-1] + n[0]
+
+    return n[-1] + contra_num_rec(n[1:len(n) - 1]) + n[0]
+
+print(contra_num_rec(num))

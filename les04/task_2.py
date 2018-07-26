@@ -36,7 +36,7 @@ print(erato(index_int))
 #
 #         1    0.001    0.001    0.001    0.001 task_2.py:10(erato)
 #
-# cProfile.run("erato(index_int)")
+# cProfile.run("erato(50)")
 
 
 def erato_2(num):
@@ -70,8 +70,8 @@ print(erato_2(index_int))
 # 10000 loops, best of 5: 344 usec per loop     25
 # 10000 loops, best of 5: 1.08 msec per loop    50
 
-#       2/1    0.000    0.000    0.006    0.006 task_2.py:44(erato_2)
-#      1021    0.005    0.000    0.005    0.000 task_2.py:46(check_prime)
+#       2/1    0.000    0.000    0.001    0.001 task_2.py:42(erato_2)
+#       427    0.001    0.000    0.001    0.000 task_2.py:44(check_prime)
 #
-# cProfile.run("erato_2(index_int)")
+# cProfile.run("erato_2(50)")
 

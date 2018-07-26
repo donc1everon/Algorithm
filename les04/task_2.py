@@ -31,7 +31,7 @@ print(erato(index_int))
 
 
 # 10000 loops, best of 5: 26.4 usec per loop    10
-# 10000 loops, best of 5: 75.7 usec per loop
+# 10000 loops, best of 5: 75.7 usec per loop    25
 # 10000 loops, best of 5: 425 usec per loop     50
 #
 #         1    0.001    0.001    0.001    0.001 task_2.py:10(erato)

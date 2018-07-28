@@ -9,7 +9,8 @@ index_int = int(input("¬ведите какое по счету простое 
 def erato(n):
     while True:
         sieve = [i for i in range(n)]
-        sieve[1] = 0
+        if len(sieve) > 1:
+            sieve[1] = 0
 
         for i in range(2, n):
             if sieve != 0:
@@ -22,9 +23,11 @@ def erato(n):
 
         if len(sieve) < index_int:
             n += n
+        elif len(sieve) == 1:
+            return sieve[index_int]
         else:
             break
-    return sieve[index_int -  1]
+    return sieve[index_int - 1]
 
 print(erato(index_int))
 
